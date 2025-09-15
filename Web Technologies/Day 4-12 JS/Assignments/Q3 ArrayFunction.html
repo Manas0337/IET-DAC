@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Functions</title>
+    </head>
+
+    <body>
+
+        <h1>Array Operations</h1>
+        <input type="text" id="inputValue" placeholder="Enter Number">
+        <br>
+
+        <button onclick="addAtStart()">Add At Start</button><br>
+        <button onclick="addAtEnd()">Add At End</button><br>
+        <button onclick="deleteFromStart()">Delete From Start</button><br>
+        <button onclick="deleteFromEnd()">Delete From End</button><br>
+        <button onclick="displayOddNumber()">Display Odd Number</button><br>
+        <button onclick="displayEvenNumber()">Display Even Number</button><br>
+
+        <div class="output" id="outputArea"></div>
+
+
+        <script>
+
+            let numbers = [];
+
+            function getInput()
+            {
+                let val = parseInt(document.getElementById("inputValue").value);
+                return isNaN(val) ? null : val
+            }
+
+            function updateOutput()
+            {
+                document.getElementById("outputArea").innerText = numbers.join(", ");
+            }
+
+            function addAtStart()
+            {
+                let val = getInput();
+                if(val !== null)
+                {
+                    numbers.unshift(val);
+                    updateOutput();
+                }
+            }
+
+            function addAtEnd()
+            {
+                let val = getInput();
+                if(val !== null)
+                {
+                    numbers.push(val);
+                    updateOutput();
+                }
+            }
+
+            function deleteFromStart()
+            {
+                let val = getInput();
+                if(val !== null)
+                {
+                    numbers.shift();
+                    updateOutput();
+                }
+            }
+
+            function deleteFromEnd()
+            {
+                let val = getInput();
+                if(val !== null)
+                {
+                    numbers.pop();
+                    updateOutput();
+                }
+            }
+
+             function displayOddNumber()
+            {
+                let oddNumbers =[];
+                for(let i=0; i<numbers.length; i++)
+                {
+                    if(numbers[i] % 2 !== 0)
+                    {
+                        oddNumbers.push(numbers[i]);
+                    }
+                }
+
+                document.getElementById("outputArea").innerText = "Odd Numbers: " + oddNumbers.join(", ");
+                
+            }
+
+            function displayEvenNumber()
+            {
+                let evenNumbers =[];
+                for(let i=0; i<numbers.length; i++)
+                {
+                    if(numbers[i] % 2 == 0)
+                    {
+                        evenNumbers.push(numbers[i]);
+                    }
+                }
+
+                document.getElementById("outputArea").innerText = "Even Numbers: " + evenNumbers.join(", ");
+                
+            }
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Arraydom
+        </title>
+    </head>
+    <body>
+        <script>
+            function a(){
+                let a = "changed using ID";
+                document.getElementById('p1').innerText = a;
+            }
+        </script>
+        <p id ="p1">
+            In Paragraph.
+        </p>
+        <button type="button" onclick="a()">Click</button>
+    </body>
+</html>

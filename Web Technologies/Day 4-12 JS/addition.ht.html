@@ -1,0 +1,36 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Addition
+        </title>
+    </head>
+    <body>
+        function add1(a,b,c,d);
+        {
+        console.log("Addition of 4 no. is" +(a,b,c,d))
+    }
+    add1(10,20,30,40);
+    </body>
+</html> -->
+
+function calculate(...a) {
+  // 1. Calculate the sum using a simple for loop
+  let sum = 0;
+  for (let i = 0; i < a.length; i++) {
+    sum += a[i];  // Add each number to sum
+  }
+  console.log("Sum of numbers:", sum);
+
+  // 2. Display odd numbers using a simple for loop
+  let oddNumbers = [];
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] % 2 !== 0) {  // Check if the number is odd
+      oddNumbers.push(a[i]);  // Add odd numbers to the oddNumbers array
+    }
+  }
+  console.log("Odd numbers:", oddNumbers);
+}
+
+// Calling the function with multiple parameters
+calculate(1, 2, 3, 4, 5, 6, 7, 8, 9);

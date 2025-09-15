@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Calculator using Callback Functions</h2>
+    <p>The result of calculation is:</p>
+    Enter first number: <input type="number" id="num1"/><br><br>
+    Enter Second number: <input type="number" id="num2"/><br><br>
+
+    Choose operation:
+    <select id="operation">
+      <option value="add">Addition</option>
+      <option value="sub">Subtraction</option>
+      <option value="mul">Multiplication</option>
+      <option value="div">Division</option>
+    </select>
+    <br><br>
+    <button onclick="startCalc()">Calculate</button>
+
+    <h1 id="result"></h1>
+
+    <script>
+      function display(value) {
+        document.getElementById("result").innerHTML = "Result: " + value;
+      }
+
+      function calc(n1, n2, mycallBack) {
+        let a = n1 + n2;
+        mycallBack(a);
+      }
+
+      function mul(n1, n2, mycallBack) {
+        let a = n1 * n2;
+        mycallBack(a);
+      }
+
+      function sub(n1, n2, mycallBack) {
+        let a = n1 - n2;
+        mycallBack(a);
+      }
+
+      function div(n1, n2, mycallBack) {
+        if (n2 === 0) {
+          mycallBack("Cannot divide by zero");
+        } else {
+          let a = n1 / n2;
+          mycallBack(a);
+        }
+      }
+
+      function calculate(n1, n2, operation, mycallBack) {
+        switch (operation) {
+          case "add":
+            calc(n1, n2, mycallBack);
+            break;
+          case "sub":
+            sub(n1, n2, mycallBack);
+            break;
+          case "mul":
+            mul(n1, n2, mycallBack);
+            break;
+          case "div":
+            div(n1, n2, mycallBack);
+            break;
+          default:
+            mycallBack("Invalid Operation");
+        }
+      }
+
+      function startCalc() {
+        let n1 = Number(document.getElementById("num1").value);
+        let n2 = Number(document.getElementById("num2").value);
+        let op = document.getElementById("operation").value;
+
+        calculate(n1, n2, op, display);
+      }
+    </script>
+  </body>
+</html>
