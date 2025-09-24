@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Tabler</title>
+</head>
+<body>
+
+  <label for="postId">Enter Post ID:</label>
+  <input type="number" id="postId" />
+  <button onclick="loadData()">Show Post</button>
+
+  <table border="1" id="myTable">
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+    </tr>
+  </table>
+
+  <script>
+    function loadData() {
+      const id = document.getElementById("postId").value;
+      const xhttp = new XMLHttpRequest();
+
+      xhttp.onload = function() {
+        const post = JSON.parse(this.responseText);
+        const table = document.getElementById("myTable");
+
+      
+        const row = table.insertRow();
+        row.insertCell(0).innerHTML = post.id;
+        row.insertCell(1).innerHTML = post.title;
+      };
+
+
+      xhttp.open("GET", `https://jsonplaceholder.typicode.com/posts/${id}`, true);
+      xhttp.send();
+    }
+  </script>
+
+</body>
+</html>

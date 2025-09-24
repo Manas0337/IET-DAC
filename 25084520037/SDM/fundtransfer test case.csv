@@ -1,0 +1,27 @@
+ID,Test Description,Module Name,Test Scenario No.,Prerequisite,Test Steps,Test Data,Expected Result,Actual Result,Status
+TC01,Login with valid credentials,Login,1,User account exists,"1. Go to login page.
+2. Enter valid username & password.
+3. Click 'Login'","Username, Password","Login successful, user dashboard is displayed",,Pass/Fail
+TC02,Login with invalid credentials,Login,2,None,"1. Go to login page.
+2. Enter invalid username/password.
+3. Click 'Login'",Wrong username or password,"Error message is shown, login fails",,Pass/Fail
+TC03,Successful logout,Logout,3,User is logged in,1. Click 'Logout' button,N/A,"User is logged out, login page displayed",,Pass/Fail
+TC04,Fund transfer (own accounts),Fund Transfer,4,User has two active accounts,"1. Login
+2. Navigate to transfers
+3. Select accounts, enter amount, confirm","Source=Checking, Dest=Savings, Amount","Transfer succeeds, balances updated, notification",,Pass/Fail
+TC05,Fund transfer to beneficiary,Fund Transfer,5,Beneficiary is registered,"1. Login
+2. Go to transfers
+3. Select beneficiary, enter amount, confirm","Beneficiary details, Amount","Transfer succeeds, notification sent, balances updated",,Pass/Fail
+TC06,Add new beneficiary,Beneficiaries,6,User is logged in,"1. Go to beneficiaries
+2. Add details
+3. Save","Name, Account No., IFSC","Beneficiary added to list, confirmation message",,Pass/Fail
+TC07,Transfer to unregistered beneficiary,Fund Transfer,7,None,"1. Navigate to transfer
+2. Enter unregistered beneficiary
+3. Attempt transfer","New account details, Amount","Error shown, transfer not allowed",,Pass/Fail
+TC08,Transfer with insufficient balance,Fund Transfer,8,Low balance in source account,"1. Login
+2. Try to transfer more than available balance",Amount > balance,"Transfer fails, insufficient funds error",,Pass/Fail
+TC09,Check account balance,View Balance,9,User is logged in,"1. Login
+2. Go to account summary",N/A,Correct and current balance displayed,,Pass/Fail
+TC10,Session expiry after inactivity,Login/Logout,10,User is logged in,"1. Login
+2. Remain inactive > session timeout
+3. Try any operation",N/A,"Redirected to login, session expired message",,Pass/Fail

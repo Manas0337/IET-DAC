@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX</title>
+</head>
+
+<body>
+  <div id="output">Click the button to load content.</div>
+  <button onclick="loadText()">Load Text</button>
+
+  <script>
+    function loadText()
+    {
+        const xhttp = new XMLHttpRequest();
+
+        xhttp.onload = function()
+        {
+            document.getElementById("output").innerHTML = this.responseText;
+        };
+
+        xhttp.open("GET", "data.txt", true);
+        xhttp.send();
+
+    };
+  </script>
+
+</body>
+</html>

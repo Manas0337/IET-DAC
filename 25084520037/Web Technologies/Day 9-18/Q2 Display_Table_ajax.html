@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Table</title>
+</head>
+<body>
+
+  <button onclick="loadData()">Show Posts</button>
+
+  <table border="1" id="myTable">
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+    </tr>
+  </table>
+
+  <script>
+    function loadData() {
+      const xhttp = new XMLHttpRequest(); 
+
+      xhttp.onload = function() {
+        const posts = JSON.parse(this.responseText);
+        const table = document.getElementById("myTable");
+
+        posts.forEach(post => {
+          const row = table.insertRow(); 
+          row.insertCell(0).innerHTML = post.id;     
+          row.insertCell(1).innerHTML = post.title;  
+        });
+      };
+
+    
+      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts", true); 
+      xhttp.send();
+    }
+  </script>
+
+</body>
+</html>

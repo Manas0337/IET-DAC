@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Load() Example</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Data will load below</h2>
+
+    <div id="result">Click button to load data</div>
+    <button id="btnLoad">Load Data</button>
+
+    <script>
+     
+        $(function(){
+            $("#btnLoad").on("click", function(){
+                
+                $("#result").load("data.txt", function(response, status, xhr){
+                    if(status === "error"){
+                        $("#result").text("xyz: " + xhr.status + " " + xhr.statusText);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

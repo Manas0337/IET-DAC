@@ -1,0 +1,98 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using namespace std;
+
+class LibraryItems{
+    public:
+    virtual void showDetails()=0;
+    virtual string getCategory()=0;
+    virtual int computeCost(int)=0;
+    virtual ~LibraryItems(){}
+};
+
+class Books:public LibraryItems{
+    private:
+    string title;
+    string author;
+    int pricePerDay;
+    
+    public:
+    //default constructor
+    Books(){}
+    //parametrized constructor
+    Books(string title, string author,int pricePerDay){
+        this->title=title;
+        this->author=author;
+        this->pricePerDay=pricePerDay;
+    }
+    //printing the details of book class using showDetails method
+    void showDetails()override{
+      cout<<"Book title:"<<title<<endl;
+      cout<<"Book author:"<<author<<endl;
+      cout<<"Book price per day:"<<pricePerDay<<endl;
+    }
+
+    string getCategory()override{
+       string s = "Books";
+       return s;
+    }
+
+    int computeCost(int days)override{
+        return pricePerDay*days;
+    }
+
+};
+
+class Magazine:public LibraryItems{
+    private:
+    string title;
+    int issueNumber;
+    int subcriptionFee;
+
+    public:
+    //default constructor
+    Magazine(){}
+
+     //parameterized constructor
+    Magazine(string title,int issueNumber,int subcriptionFee){
+      this->title=title;
+      this->issueNumber=issueNumber;
+      this->subcriptionFee=subcriptionFee;
+     }
+
+     void showDetails()override{
+        cout<<"Book title"<<title<<endl;
+        cout<<"Book issueNumber"<<issueNumber<<endl;
+        cout<<"Book subcriptionfee"<<subcriptionFee<<endl;
+     }
+
+     string getCategory(){
+        string s = "Magazine";
+        return s;
+     }
+
+     int computeCost(int months){
+        return subcriptionFee*months;
+     }
+};
+
+int main(){
+    vector<LibraryItems *> items;
+
+    items.push_back(new Books("java","jyoti",50 ));
+    items.push_back(new Books("python","mansa",70 ));
+    items.push_back(new Books("data structure","sakshi",80 ));
+
+    items.push_back(new Magazine("International Geographic",21,400));
+    items.push_back(new Magazine("International History",103,500));
+    items.push_back(new Magazine("national Geographic",31,300));
+
+    for(auto item : items){
+        cout<<item->getCategory()<<endl;
+        item->showDetails();
+        cout<<item->computeCost(4)<<endl;
+    }
+
+    
+}

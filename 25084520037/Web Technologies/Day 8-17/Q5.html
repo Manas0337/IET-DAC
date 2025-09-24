@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+      
+    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam numquam obcaecati velit dicta? Eius amet, modi veritatis magni deleniti quasi numquam aut? Optio expedita, vel possimus eius labore explicabo consequatur.</p>
+
+<div id="result"></div>
+
+<button>click me</button>
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $("#para").click(function(){
+            
+        let str=$("#para").text();
+        let a=0
+        let x=5
+        let length1=str.length
+        let b= length1/x
+        let finalstr=""
+
+        for(let i=0;i<length1;i++){
+            let str2= str.slice(a,b)
+            finalstr=finalstr.concat(str2+ "<br>")
+            console.log(a,b,length1/x)
+            a=b 
+            b=b + length1/x
+
+        }
+
+        $("#result").html(finalstr)
+        }
+
+
+        )
+     });
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scrolling Animation</title>
+  <style>
+    #div1 {
+      width: 300px;
+      height: 50px;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid #333;
+      background-color: aquamarine;
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      color: #2c3e50;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    #quoteText {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">
+    <div id="quoteText">"The only way to do great work is to love what you do." – Steve Jobs</div>
+  </div>
+
+  <p></p>
+  <button id="bt1">Slide Down</button>
+  <button id="bt2">Slide Up</button>
+  <button id="bt3">Slide Toggle</button>
+  <button id="bt4">Stop</button>
+  <button id="bt5">Start Scrolling</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      const $div1 = $("#div1");
+      const $quoteText = $("#quoteText");
+
+      $("p").text("Paragraph");
+
+      $("#bt1").click(() => {
+        $div1.slideDown();
+      });
+
+      $("#bt2").click(() => {
+        $div1.slideUp(5000);
+      });
+
+      $("#bt3").click(() => {
+        $div1.slideToggle(5000);
+      });
+
+      $("#bt4").click(() => {
+        $div1.stop(true);
+        $quoteText.stop(true);
+      });
+
+      $("#bt5").click(() => {
+        const containerWidth = $div1.width();
+        const quoteWidth = $quoteText.width();
+
+        let count = 0;
+
+        function scrollLeftToRight(times, callback) {
+          if (count >= times) {
+            callback();
+            return;
+          }
+          $quoteText.css({ left: -quoteWidth });
+          $quoteText.animate({ left: containerWidth }, 4000, 'linear', function () {
+            count++;
+            scrollLeftToRight(times, callback);
+          });
+        }
+
+        function scrollRightToLeft(callback) {
+          $quoteText.css({ left: containerWidth });
+          $quoteText.animate({ left: -quoteWidth }, 4000, 'linear', callback);
+        }
+
+        count = 0;
+        scrollLeftToRight(4, function () {
+          scrollRightToLeft(function () {
+            alert('Scrolling complete!');
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

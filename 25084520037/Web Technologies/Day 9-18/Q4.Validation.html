@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <label for="name">Enter Name: </label>
+    <input type="text" id="name" required placeholder="Enter Name">
+    <br><br>
+
+    <label for="pno">Enter Phone Number</label>
+    <input type="text" id="pno" required placeholder="Enter Phone Number">
+    <br><br>
+
+    <button onclick="validate()">Submit</button>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        function validate() {
+            const nameInput = document.getElementById("name");
+            const phoneInput = document.getElementById("pno");
+
+            const name = nameInput.value.trim();
+            const number = phoneInput.value.trim();
+
+            const p1 = document.getElementById("p1");
+            const p2 = document.getElementById("p2");
+
+            p1.innerText = "";
+            p2.innerText = "";
+
+            let valid = true;
+
+            if (name === "") {
+                p1.innerText = "Name is required.";
+                valid = false;
+            } else {
+                p1.innerText = "Name: " + name;
+            }
+
+            if (number.length !== 10 || isNaN(number)) {
+                p2.innerText = "Phone number must be exactly 10 digits.";
+                valid = false;
+            } else {
+                p2.innerText = "Phone Number: " + number;
+            }
+
+            return valid;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Operations</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    button { margin: 5px; }
+    #output { margin-top: 20px; font-weight: bold; }
+  </style>
+  <script>
+    // global array
+    let numbers = [];
+
+    function addAtEnd() {
+      let val = document.getElementById("num").value;
+      if (val === "") return;
+      numbers.push(Number(val)); // add at end
+      displayArray();
+    }
+
+    function addAtStart() {
+      let val = document.getElementById("num").value;
+      if (val === "") return;
+      numbers.unshift(Number(val)); // add at start
+      displayArray();
+    }
+
+    function deleteFromEnd() {
+      numbers.pop(); // remove from end
+      displayArray();
+    }
+
+    function deleteFromStart() {
+      numbers.shift(); // remove from start
+      displayArray();
+    }
+
+    function displayOdd() {
+      let odd = numbers.filter(n => n % 2 !== 0); // filter odd
+      document.getElementById("output").innerText =
+        "Odd Numbers: " + odd.join(", ");
+    }
+
+    function displayEven() {
+      let even = numbers.filter(n => n % 2 === 0); // filter even
+      document.getElementById("output").innerText =
+        "Even Numbers: " + even.join(", ");
+    }
+
+    function displayArray() {
+      document.getElementById("output").innerText =
+        "Array: " + numbers.join(", ");
+    }
+  </script>
+</head>
+<body>
+  <h2>Array Operations</h2>
+  Enter Number: <input type="text" id="num"><br><br>
+
+  <button onclick="addAtEnd()">Add at End</button>
+  <button onclick="addAtStart()">Add at Start</button>
+  <button onclick="deleteFromEnd()">Delete from End</button>
+  <button onclick="deleteFromStart()">Delete from Start</button>
+  <button onclick="displayOdd()">Display Odd Numbers</button>
+  <button onclick="displayEven()">Display Even Numbers</button>
+
+  <div id="output">Array: </div>
+</body>
+</html>

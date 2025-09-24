@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="btn">Click Me</button>
+<p id="msg">You clicked 0 times</p>
+
+<script>
+let count = 0;
+
+function countClicks() {
+  count++;
+  document.getElementById("msg").innerHTML = "You clicked " + count + " times";
+
+  if (count >= 10) {
+    // disable button
+    let b = document.getElementById("btn");
+    b.disabled = true;
+    // change style to show it's disabled
+    b.style.backgroundColor = "lightgray";
+    b.style.cursor = "not-allowed";
+  }
+}
+
+document.getElementById("btn").onclick = countClicks;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+BillID: 1Customer: MadhaviItems:
+(1:3)(2:3)(3:5)
+Bill ID : 2
+Customer : Ankita
+Item ID : 1
+Item Name : Mouse
+Quantity : 10
+Price : 1000

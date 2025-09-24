@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <div id="div1" style="width: 80px; height: 80px; background-color: aquamarine;"></div>
+    <p></p>
+    <button id="bt1">Slide Up</button>
+    <button id="bt2">Slide Down</button>
+    <button id="bt3">Slide Up/Down</button>
+    
+    <button id="bt4">Stop</button>
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+ $(function(){
+$("p").text("Paragraph")
+$("#div1").html("<p>My Info</p>")
+
+$("#bt1").click(()=>{
+    $("#div1").slideDown()
+})
+
+$("#bt2").click(()=>{
+     $("#div1").slideUp(5000)
+})
+
+$("#bt3").click(()=>{
+     $("#div1").slideToggle(5000)
+})
+$("#bt4").click(()=>{
+     $("#div1").stop()
+})
+
+$("#bt4").click(()=>{
+     $("#div1").scrollLeft(100)
+})
+ })
+    </script>
+</body>
+</html>

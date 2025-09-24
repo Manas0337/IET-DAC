@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <div id="div1" style="width: 80px; height: 80px;display: none; background-color: aquamarine;"></div>
+    <p></p>
+    <button id="bt1">Fade In</button>
+    <button id="bt2">Fade Out</button>
+    <button id="bt3">Fade In/Out</button>
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+ $(function(){
+$("p").text("Paragraph")
+$("#div1").html("<p>My Info</p>")
+
+$("#bt1").click(()=>{
+  $("#div1").fadeIn(500)
+})
+
+$("#bt2").click(()=>{
+  $("#div1").fadeOut(500)
+})
+
+$("#bt3").click(()=>{
+  $("#div1").fadeToggle(500)
+})
+ })
+    </script>
+</body>
+</html>

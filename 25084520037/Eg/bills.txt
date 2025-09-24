@@ -1,0 +1,18 @@
+Bill ID: 1
+Customer: Ravi Kumar
+----------------------------------------
+ItemID	Name		Qty	Price
+101	Laptop	1	75000
+102	Mouse	2	1000
+----------------------------------------
+Total Amount: ₹76000
+
+Bill ID: 1
+Customer: Ravi Kumar
+----------------------------------------
+ItemID	Name		Qty	Price
+101	Laptop	1	75000
+102	Mouse	2	1000
+----------------------------------------
+Total Amount: ₹76000
+
