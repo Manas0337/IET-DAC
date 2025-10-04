@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Name: </label>
+    <input type="text" id="pname">
+    <br><br>
+    <label for="lastname">last Name: </label>
+    <input type="text" id="lN">
+    <br><br>
+    <label for="age">Age: </label>
+    <input type="number" id="ag">
+
+    <button type="submit" onclick="abc()">Add</button>
+    <br><br>
+
+    <h3>Employee Data</h3>
+    <table id="tbl" border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+    <script>
+        function abc() {
+            let name_j = document.getElementById("pname").value.trim();
+            let name_L = document.getElementById("lN").value.trim();
+            let ageP = document.getElementById("ag").value.trim();
+
+           
+            const obj = {
+                name: name_j,
+                lastname: name_L,
+                age: ageP
+            };
+
+            const jsonString = JSON.stringify(obj);
+            const jsonobj = JSON.parse(jsonString);
+
+            let firstTwo = jsonobj.name.slice(0, 2).toLowerCase();
+            let lastTwo = jsonobj.lastname.slice(-2).toLowerCase();
+            let username = firstTwo + lastTwo + jsonobj.age;
+
+            console.log("Username:", username);
+
+        
+            const tbody = document.getElementById("tbody");
+
+            const newRow = `
+                <tr>
+                    <td>${jsonobj.name}</td>
+                    <td>${jsonobj.lastname}</td>
+                    <td>${jsonobj.age}</td>
+                    <td>${username}</td>
+                </tr>
+            `;
+
+            tbody.innerHTML += newRow;
+        }
+    </script>
+</body>
+</html>

@@ -4,7 +4,8 @@ class TextTransformer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: ''
+      text: '',
+      transformedText: ''
     };
   }
 
@@ -12,16 +13,12 @@ class TextTransformer extends Component {
     this.setState({ text: event.target.value });
   };
 
-  toUpperCase(e){
-    console.log(e.target);
-    
-    let input = (document.getElementById("input"))
-    let p1 = (document.getElementById("p1"))
-    p1.innerHTML = input.target.value.toUpperCase();
+  toUpperCase = () => {
+    this.setState({ transformedText: this.state.text.toUpperCase() });
   };
 
   toLowerCase = () => {
-    console.log(this.state.text.toLowerCase());
+    this.setState({ transformedText: this.state.text.toLowerCase() });
   };
 
   render() {
@@ -31,17 +28,18 @@ class TextTransformer extends Component {
           type="text"
           id="input"
           placeholder="Enter text here"
+          value={this.state.text}
+          onChange={this.handleChange}
         />
         <br /><br />
         <button onClick={this.toUpperCase}>UPPER CASE</button>
         <button onClick={this.toLowerCase} style={{ marginLeft: '10px' }}>
           lower case
         </button>
-        <p id="p1"></p>
-
+        <p id="p1">{this.state.transformedText}</p>
       </div>
     );
   }
 }
 
-export default TextTransformer
+export default TextTransformer;

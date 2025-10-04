@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Data Form</title>
+  
+</head>
+<body>
+
+  <h2>Enter Employee Data</h2>
+  
+  <div class="error" id="errorMsg"></div>
+
+  <form id="employeeForm">
+    <label>First Name: <input type="text" id="firstName"></label><br><br>
+    <label>Last Name: <input type="text" id="lastName"></label><br><br>
+    <label>Email: <input type="email" id="email"></label><br><br>
+    <label>Date of Birth: <input type="date" id="dob"></label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="employeeTableContainer"></div>
+
+  <script>
+    const form = document.getElementById('employeeForm');
+    const errorMsg = document.getElementById('errorMsg');
+    const tableContainer = document.getElementById('employeeTableContainer');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const firstName = document.getElementById('firstName').value.trim();
+      const lastName = document.getElementById('lastName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const dob = document.getElementById('dob').value;
+
+     
+      errorMsg.textContent = '';
+
+      if (!firstName || !lastName || !email || !dob) {
+        errorMsg.textContent = "Please fill in all fields."
+        return;
+      }
+
+     
+      const tableHTML = `
+        <h3>Employee Data</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Date of Birth</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>${firstName}</td>
+              <td>${lastName}</td>
+              <td>${email}</td>
+              <td>${dob}</td>
+            </tr>
+          </tbody>
+        </table>
+      `;
+
+      tableContainer.innerHTML = tableHTML;
+    });
+  </script>
+
+</body>
+</html>

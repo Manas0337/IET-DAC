@@ -9,8 +9,6 @@ import Calculator from './Q1calc';
 import Factorial from './Q1Fact'
 import OperationCalculator from './Q1operationcalc';
 import { Header, Footer, Content } from './Q2Multiplefunction';
-
-
 import TextTransformer from './Q3Classcomponent'; // adjust path as needed
 
 

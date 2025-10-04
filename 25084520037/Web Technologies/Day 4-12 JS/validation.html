@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .err
+        {
+            visibility: hidden;
+        }
+    </style>
+     <script>
+    function validation(){
+        var Name=document.forms["form1"]["name"].value
+        var Age=document.forms["form1"]["age"].value
+           console.log(name,age)
+
+        if(name.trim()==""){
+          document.getElementsByClassName("err")[0].style.visibility="visible"
+
+        }
+        else{
+            document.getElementsByClassName("err")[0].style.visibility="hidden"
+        }
+
+        if(age<15){
+            document.getElementsByClassName("err")[1].style.visibility="visible"
+            return false;
+
+        }
+        else{
+            document.getElementsByClassName("err")[1].style.visibility="hidden"
+            document.forms["form1"].action="one.html"
+            return true
+        }
+        
+    }
+function do1(){
+    document.forms["form1"].action="g.html"
+    document.forms["form1"].submit()
+}
+
+
+ </script>
+</head>
+<body>
+    <form name="form1" onsubmit=" return validation()">
+
+    <label for="name">Student name</label>
+    <input type="text" name="name">
+    <br>
+    <h2 class="err">Name is required</h2>
+    <br>
+    <br>
+    <label for="name">Student age</label>
+    <input type="number" name="age" >
+    <br>
+    <h2 class="err">age is less than 15</h2>
+    <br>
+    <br>
+   <input type="submit"  value="Action1"> </input><br>
+    </form>
+
+
+</body>
+</html>
