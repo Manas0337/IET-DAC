@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Table</title>
+    <script>
+        function calculateTable() {
+            const input = document.getElementById("numberInput").value;
+            const outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = ""; // Clear previous output
+
+            if (input === "") {
+                alert("Please enter a value.");
+                return;
+            }
+
+            const num = parseInt(input);
+            if (isNaN(num)) {
+                alert("Please enter a valid number.");
+                return;
+            }
+
+            let tableHTML = `<h3>Multiplication Table for ${num}</h3><ul>`;
+            for (let i = 1; i <= 10; i++) {
+                tableHTML += `<li>${num} × ${i} = ${num * i}</li>`;
+            }
+            tableHTML += "</ul>";
+            outputDiv.innerHTML = tableHTML;
+        }
+    </script>
+</head>
+<body>
+    <h2>Enter a Number</h2>
+    <input type="text" id="numberInput" placeholder="Enter a number">
+    <br><br>
+    <a href="#" onclick="calculateTable()">Calculate</a>
+
+    <div id="output"></div>
+</body>
+</html>

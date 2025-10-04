@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Info</title>
+</head>
+<body>
+  <h2>Enter Student Information</h2>
+  <label>First Name:</label>
+  <input type="text" id="firstName"><br><br>
+
+  <label>Last Name:</label>
+  <input type="text" id="lastName"><br><br>
+
+  <label>Marks:</label>
+  <input type="number" id="marks"><br><br>
+
+  <button onclick="updateStudent()">Submit</button>
+
+  <h3>Student Data:</h3>
+  <div id="studentData"></div>
+
+  <script>
+    const stud = {
+      firstName: "John",
+      lastName: "",
+      marks: 48
+    };
+
+    function updateStudent() {
+      // Get input values
+      const fName = document.getElementById("firstName").value;
+      const lName = document.getElementById("lastName").value;
+      const mark = document.getElementById("marks").value;
+
+      // Update object
+      stud.firstName = fName;
+      stud.lastName = lName;
+      stud.marks = parseInt(mark);
+
+      // Display updated data
+      document.getElementById("studentData").innerHTML =
+        `<strong>First Name:</strong> ${stud.firstName}<br>
+         <strong>Last Name:</strong> ${stud.lastName}<br>
+         <strong>Marks:</strong> ${stud.marks}`;
+    }
+  </script>
+</body>
+</html>
