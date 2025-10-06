@@ -4,45 +4,48 @@
   <title>Student Info</title>
 </head>
 <body>
+
   <h2>Enter Student Information</h2>
-  <label>First Name:</label>
-  <input type="text" id="firstName"><br><br>
+  First Name: <input type="text" id="firstName"><br><br>
+  Last Name: <input type="text" id="lastName"><br><br>
+  Marks: <input type="number" id="marks"><br><br>
 
-  <label>Last Name:</label>
-  <input type="text" id="lastName"><br><br>
+  <button onclick="addStudent()">Submit</button>
 
-  <label>Marks:</label>
-  <input type="number" id="marks"><br><br>
-
-  <button onclick="updateStudent()">Submit</button>
-
-  <h3>Student Data:</h3>
-  <div id="studentData"></div>
+  <h3>Student List:</h3>
+  <div id="studentList"></div>
 
   <script>
-    const stud = {
-      firstName: "John",
-      lastName: "",
-      marks: 48
-    };
+   
+    const students = [];
 
-    function updateStudent() {
-      // Get input values
-      const fName = document.getElementById("firstName").value;
-      const lName = document.getElementById("lastName").value;
-      const mark = document.getElementById("marks").value;
+    function addStudent() {
+     
+      const stud = {
+        firstName: document.getElementById("firstName").value,
+        lastName: document.getElementById("lastName").value,
+        marks: document.getElementById("marks").value
+      };
 
-      // Update object
-      stud.firstName = fName;
-      stud.lastName = lName;
-      stud.marks = parseInt(mark);
+      
+      students.push(stud);
 
-      // Display updated data
-      document.getElementById("studentData").innerHTML =
-        `<strong>First Name:</strong> ${stud.firstName}<br>
-         <strong>Last Name:</strong> ${stud.lastName}<br>
-         <strong>Marks:</strong> ${stud.marks}`;
+    
+      displayStudents();
+    }
+
+    function displayStudents() {
+      const listDiv = document.getElementById("studentList");
+      listDiv.innerHTML = ""; 
+
+
+      students.forEach((s, index) => {
+        const entry = document.createElement("p");
+        entry.innerText = `${index + 1}. ${s.firstName} ${s.lastName} - Marks: ${s.marks}`;
+        listDiv.appendChild(entry);
+      });
     }
   </script>
+
 </body>
 </html>
