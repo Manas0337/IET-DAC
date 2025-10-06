@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+</head>
+<body>
+
+  <h2>User Registration</h2>
+
+  <label>First Name:</label>
+  <input type="text" id="firstName"><br><br>
+
+  <label>Last Name:</label>
+  <input type="text" id="lastName"><br><br>
+
+  <label>Marks:</label>
+  <input type="text" id="marks"><br><br>
+
+  <button onclick="showData()">Submit</button>
+
+  <p id="error" style="color:red;"></p>
+  <h3 id="result"></h3>
+
+  <script>
+    function showData() {
+      const firstName = document.getElementById("firstName").value.trim();
+      const lastName = document.getElementById("lastName").value.trim();
+      const marks = document.getElementById("marks").value.trim();
+      const error = document.getElementById("error");
+      const result = document.getElementById("result");
+
+      error.innerText = "";
+      result.innerHTML = "";
+
+      if (!firstName || !lastName || !marks) {
+        error.innerText = "All fields are required";
+        return;
+      }
+
+      const username = firstName.slice(0, 2) + marks + lastName.slice(-2);
+      result.innerHTML = `Username: ${username}<br>
+                          First Name: ${firstName}<br>
+                          Last Name: ${lastName}<br>
+                          Marks: ${marks}`;
+    }
+  </script>
+
+</body>
+</html>
