@@ -1,0 +1,15 @@
+package com.demo.test;
+
+import com.demo.sort.SelectionSortAlgorithm;
+
+public class TestSelectionSort {
+
+	public static void main(String[] args) {
+		
+	int[] arr={15,20,24,16,7,8,9,3,36};
+	SelectionSortAlgorithm.selectionSortAscending(arr);
+	//Selection.SortAlgorithm.selectionSortDescending(arr);
+
+	}
+
+}

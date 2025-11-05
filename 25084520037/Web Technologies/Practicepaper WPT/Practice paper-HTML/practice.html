@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi-Function Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    section { margin-bottom: 30px; }
+    input, button { margin: 5px; }
+  </style>
+</head>
+<body>
+
+  <!-- 1) Heading and Date/Time -->
+  <section>
+    <h1>Welcome to the Multi-Function Page</h1>
+    <iframe src="https://www.timeanddate.com/worldclock/" width="300" height="100"></iframe>
+  </section>
+
+  <!-- 2) Hyperlink to Calculate.html -->
+  <section>
+    <h2>Go to Calculation Page</h2>
+    <a href="Calculate.html">Click here to calculate table of a number</a>
+  </section>
+
+  <!-- 3) Create Username -->
+  <section>
+    <h2>Create Username</h2>
+    <input type="text" id="fname" placeholder="First Name">
+    <input type="text" id="lname" placeholder="Last Name">
+    <input type="number" id="age" placeholder="Age">
+    <button onclick="generateUsername()">Generate Username</button>
+    <p id="usernameResult"></p>
+  </section>
+
+  <!-- 4) Student Object Update -->
+  <section>
+    <h2>Student Information</h2>
+    <input type="text" id="studFname" placeholder="First Name">
+    <input type="text" id="studLname" placeholder="Last Name">
+    <input type="number" id="studMarks" placeholder="Marks">
+    <button onclick="updateStudent()">Add Student Info</button>
+    <p id="studentDisplay"></p>
+  </section>
+
+  <script>
+    // Username Generator
+    function generateUsername() {
+      const fname = document.getElementById("fname").value.trim().toLowerCase();
+      const lname = document.getElementById("lname").value.trim().toLowerCase();
+      const age = document.getElementById("age").value.trim();
+
+      if (fname.length < 2 || lname.length < 2 || age === "") {
+        document.getElementById("usernameResult").innerText = "Please enter valid details.";
+        return;
+      }
+
+      const username = fname.slice(0, 2) + lname.slice(-2) + age;
+      document.getElementById("usernameResult").innerText = "Generated Username: " + username;
+    }
+
+    // Student Object Update
+    const stud = {
+      firstName: "John",
+      lastname: "",
+      marks: 48
+    };
+
+    function updateStudent() {
+      const f = document.getElementById("studFname").value.trim();
+      const l = document.getElementById("studLname").value.trim();
+      const m = document.getElementById("studMarks").value.trim();
+
+      if (f === "" || l === "" || m === "") {
+        document.getElementById("studentDisplay").innerText = "Please fill all fields.";
+        return;
+      }
+
+      stud.firstName = f;
+      stud.lastname = l;
+      stud.marks = parseInt(m);
+
+      document.getElementById("studentDisplay").innerText =
+        `Student Info:\nName: ${stud.firstName} ${stud.lastname}\nMarks: ${stud.marks}`;
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+</head>
+<body>
+
+  <h2>User Registration</h2>
+
+  <label>First Name:</label>
+  <input type="text" id="firstName">
+  <p id="error1" style="color:red;"></p>
+
+  <label>Last Name:</label>
+  <input type="text" id="lastName">
+  <p id="error2" style="color:red;"></p>
+
+  <label>Marks:</label>
+  <input type="text" id="marks">
+  <p id="error3" style="color:red;"></p>
+
+  <button onclick="showData()">Submit</button>
+
+  <h3 id="result"></h3>
+
+  <script>
+    function showData() {
+      // Clear previous errors
+      document.getElementById("error1").innerText = "";
+      document.getElementById("error2").innerText = "";
+      document.getElementById("error3").innerText = "";
+
+      // Get input values
+      let firstName = document.getElementById("firstName").value.trim();
+      let lastName = document.getElementById("lastName").value.trim();
+      let marks = document.getElementById("marks").value.trim();
+
+      let isValid = true;
+
+      // Validation
+      if (firstName === "") {
+        document.getElementById("error1").innerText = "First name is required";
+        isValid = false;
+      }
+
+      if (lastName === "") {
+        document.getElementById("error2").innerText = "Last name is required";
+        isValid = false;
+      }
+
+      if (marks === "") {
+        document.getElementById("error3").innerText = "Marks are required";
+        isValid = false;
+      }
+
+      // If valid, show result
+      if (isValid) {
+        let username = firstName.slice(0, 2) + marks + lastName.slice(-2);
+        let output = `Username: ${username}<br>
+                      First Name: ${firstName}<br>
+                      Last Name: ${lastName}<br>
+                      Marks: ${marks}`;
+        document.getElementById("result").innerHTML = output;
+      }
+    }
+  </script>
+
+</body>
+</html>

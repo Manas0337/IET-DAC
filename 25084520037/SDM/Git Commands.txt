@@ -1,0 +1,19 @@
+git init
+git status
+git add
+git add .
+git commit -m ""
+git config --global user.email ""
+git config --global user.name ""
+git clone
+git push
+git pull
+git branch branchname
+git checkout branchname ------> to switch
+git merge branchname -----> merges to main 
+
+git --version
+git help
+git diff 1stfile 2ndfile
+git rebase 
+git info

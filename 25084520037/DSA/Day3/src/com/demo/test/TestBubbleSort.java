@@ -1,0 +1,20 @@
+package com.demo.test;
+
+import java.util.stream.IntStream;
+import com.demo.search.*;
+
+public class TestBubbleSort
+{
+  public static void main(String [] args)
+  {
+  int[]arr= {11,23,22,5,1,7,8,10,3,17};
+  
+  System.out.println("Ascending BubbleSort");
+  BubbleSortAlgorithm.bubbleSort(arr);
+  System.out.println();
+  
+  System.out.println("Descending BubbleSort");
+  BubbleSortAlgorithm.bubbleSortImprovedDescending(arr);
+  IntStream.of(arr).forEach(e->System.out.print(e+"\t"));
+}
+}

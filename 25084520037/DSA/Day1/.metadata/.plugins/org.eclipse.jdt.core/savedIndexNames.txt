@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+C:\Users\IET\Desktop\25084520037\DSA\Day1\.metadata\.plugins\org.eclipse.jdt.core
+1785852751.index
+2840634325.index
+2600672837.index
+2478388627.index
+2594159490.index
+1865797976.index
+2178751970.index

@@ -1,0 +1,33 @@
+package test;
+import arrays.MyArray;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		
+		MyArray obj = new MyArray();
+		System.out.println("Capacity" + obj.getCapacity());
+		
+		obj.add(7);
+		obj.add(4);
+		System.out.println(obj);
+	    obj.add(12,1);
+	    System.out.println(obj);
+		System.out.println("Position of 4 : "+obj.SearchByvalue(4));
+		obj.add(8);
+		obj.add(6);
+		obj.add(9);
+		obj.add(12);
+		System.out.println(obj);
+		obj.deleteByValue(9);
+		System.out.println(obj);
+		//obj.deleteBypos(5);
+		//System.out.println(obj);
+		int []arr1=ob.exchangeIndexValue();
+		InStream.of(arr1).forEach(e->System.out.print(e+","))
+		
+		
+
+	}
+
+}

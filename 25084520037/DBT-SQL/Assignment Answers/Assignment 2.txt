@@ -1,0 +1,22 @@
+
+
+1.Display the Employee Name, Job, and Start Date of Employees hired from February 1981 to May 1981.
+--> select ename 'EMPLOYEE NAME',job 'JOB',hiredate 'HIREDATE' from emp where hiredate >= '1981-02-01' and hiredate <= '1981-05-31';
+
+2.Display the Name and Hiredate of every Employee who was hired in 1982.
+--> select ename ENAME,hiredate HIREDATE from emp where hiredate like '%1982%';
+
+3.Write a query to display the current date. Label the column as Current Date.
+-->select curdate() 'Current Date';
+
+4.Display the Employee’s Name, Hiredate, Salary and Review Date, which is first Monday after six months of service.
+-->
+
+5.Modify the query to display the dates as “Sunday, the Seventh of September, 1981”.
+-->
+
+6.Create a query to display the name and salary for all Employees. Format the salary to be 15 characters long by adding ‘$’.
+
+
+
+

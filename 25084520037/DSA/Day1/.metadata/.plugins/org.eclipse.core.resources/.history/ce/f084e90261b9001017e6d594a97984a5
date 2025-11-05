@@ -1,0 +1,12 @@
+package com.demo.test;
+
+public class TestSelectionSort {
+
+	public static void main(String[] args) {
+		
+	int arr={15,20,24,16,7,8,9,3,36};
+	SelectionSortAlgorithm.selectionSortAscend
+
+	}
+
+}

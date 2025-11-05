@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.domo.search.SearchingService"/>
+    <fullyQualifiedTypeName name="com.demo.search.SearchingService"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.demo.sort.InsertionSortAlgorithm"/>
+    <fullyQualifiedTypeName name="com.demo.sort.MergeSortAlgorithm"/>
+    <fullyQualifiedTypeName name="com.demo.sort.QuickSortAlgorithm"/>
+    <fullyQualifiedTypeName name="com.demo.sort.SelectionSortAlgorithm"/>
+    <fullyQualifiedTypeName name="com.demo.sort.HeapSortAlgorithm"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

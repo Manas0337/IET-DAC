@@ -1,0 +1,74 @@
+1. Retrieve the entire contents of EMP table.
+--> select * from emp;
+
+2.Print the name of employees.
+--> select ename from emp;
+
+3.Retrieve the list of names and jobs of employees.
+--> select ename,job from emp;
+
+4.List of various department available from dept table.
+--> select dname from dept;
+
+5.List all information about the Employees of the EMP table.
+--> select * from emp;
+
+6.Show the information of the Department table.
+-->  select * from dept;
+
+7.Display the contents of the column Empno, Ename as Employee Name and Sal from the Emp table.
+--> select empno,ename Ename,sal from emp;
+
+8.Display the Job, Comm and Ename from the Emp table with Customized column headings.
+--> select job JOB,comm COMM ,ename ENAME from emp;
+
+9.Display the location as “Location” and names of all the departments as “Department Names”.
+--> select LOC "Location",DNAME "Department Names" from dept;
+
+10.List the different Managers Codes.
+--> select mgr from emp;
+
+11.Write a query, which concatenates the Emp No, Name and Mgr Code. Display output with spaces in the columns. 
+--> select concat(empno,' ',ename,' ',mgr,' ')concat from emp;
+
+12.Create a query to display all the data from the EMP table, separate each column by a comma.
+--> select concat_ws(',',EMPNO,ENAME,GENDER,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO,BONUSID,'USER NAME',PWD,PHONE,isActive)'Employee Data' from emp;
+
+13.Modify the above query to add a column that will subtract the Old Salary from the New Salary. 
+--> Step 1- alter table emp add newsalary decimal(10,2);
+    Step 2- update emp set newsalary=sal+sal*10/100;
+    Step 3- select newsalary-sal from emp;
+
+14.Write a query that produces the following for each employee as-<employee name> earns <salary> monthly, but wants salary <3 times salary>. Label the columns Dream Salaries.
+-->select ename,sal,sal+sal*3/100 DreamSalaries from emp;
+
+15.Display different types of positions available in the Company.
+-->select job JOB from emp;
+
+16.Using the sales table, you need to report the following.
+-->desc sales;
+
+17.Appropriate column heading should be given for all the columns.
+--> select REPID "Report ID",CUSTID "Customer ID",PRODID "Product ID",PRODNAME "Product Name",AMOUNT from sales;
+
+
+================================================================================================================
+
+1.To change column name--> alter table emp change column sal oldsalary decimal(10,2);
+2.To add new column to existing table--> alter table emp add newsalary decimal(10,2);
+3.To update the values in the column--> update emp set newsalary=sal+sal*10/100;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

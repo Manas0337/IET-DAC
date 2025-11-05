@@ -1,0 +1,14 @@
+package com.demo.test;
+
+public class TestBubbleSort {
+  int[]arr= {21,2,5,1,7,8,3};
+  
+  System.out.println("Ascending BubbleSort");
+  BubbleSortAlgorithm.bubblesort(arr);
+  System.out.println();
+  
+  S
+  BubbleSortAlgorithm.bubbleSortImproved(arr);
+  BubbleSortAlgorithm.bubblesortImprovedDescending(arr);
+  IntStream.of(arr).forEach(e->System.out.print(e+"\t");
+}

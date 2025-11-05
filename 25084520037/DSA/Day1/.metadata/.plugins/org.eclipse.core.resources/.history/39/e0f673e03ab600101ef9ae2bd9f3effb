@@ -1,0 +1,20 @@
+package com.demo.Test;
+import com.demo.Search.SearchingService;
+
+public class TestSearch {
+
+public static void main(String[]args)
+{
+//	int[]arr= {10,5,4,7,8,3,2,15};
+//	int pos=com.demo.Search.SearchingService.SequentialSearch(arr, 7);
+//	if(pos!=-1)
+//	{
+//		System.out.println("number found at position:"+pos);
+//	}
+//	else {
+//		System.out.println("not found");
+//	}
+?
+	}
+}
+
