@@ -1,0 +1,38 @@
+package com.demo.assignments;
+import java.util.*;
+public class FactOfPrimeNumber {
+
+	public static void main(String[] args) {
+	
+		
+	}
+     
+	
+	public static long factOfPrimeNum(int num) {
+		int fact =1;
+		for(int i = 1; i < num ; i++) {
+			fact = fact*i; 
+		}
+		return fact;
+	}
+	
+	public static boolean primeNumber(int num) {
+		for(int i = 1; i < num ; i++) {
+	    	if(num%i != 0)
+		  {
+			return true;
+		   }
+	    }		
+		return false;
+
+	}
+	public static int additionOfDigit(int num) {
+		int sum =0;
+		while(num > 0) {
+			sum = sum + num%10;
+			num /= 10;
+		}
+		return sum;
+		
+	}
+}

@@ -1,0 +1,44 @@
+
+	import java.util.Scanner;
+	public class ArrayMain {
+		
+	public static void acceptdata(int[] arr){
+	Scanner sc= new Scanner(System.in);
+	for(int i=0;i<arr.length;i++)
+	{
+	System.out.println("Enter a array");
+	arr[i]=sc.nextInt();
+	}
+	}
+	public static void displaydata(int arr[])
+	{
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println((i+1)+":"+arr[i]);
+		}
+	}
+	public static int primeNumbers(int arr[])
+	{
+	int sum=0;
+	for(int i=0;i<arr.length;i++)
+	{
+	if(i % 2!=0)
+	{
+	sum=sum+i;	
+	}
+	}
+	return sum;
+	}
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Size of array: ");
+		int arrSize = sc.nextInt();
+		int arr[] = new int[arrSize];	
+		acceptdata(arr);
+		displaydata(arr);
+		primeNumbers(arr);
+	}
+
+	}
+
+

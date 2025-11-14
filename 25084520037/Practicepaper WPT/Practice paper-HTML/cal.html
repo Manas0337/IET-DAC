@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Table</title>
+</head>
+<body>
+    <h3>Calculate Table</h3>
+    <input type="text" id="num">
+    <button onclick="showTable()">Show Table</button>
+
+    <div id="result"></div>
+    <script>
+        function showTable(){
+
+        let num= document.getElementById("num").value;
+        let result= document.getElementById("result");
+        result.innerHTML="";
+
+        if(num==="")
+        {
+        alert("Please Enter a valid number");
+        return;
+        }
+        if(isNaN(num))
+        {
+        alert("!Invalid Input");
+        return;
+         }
+        for(let i=1;i<10;i++)
+        {
+            result.innerHTML += num + "*" + i + "=" + (num*i) + "<br>";
+     
+        }
+        }
+        
+    </script>
+
+</body>
+</html>

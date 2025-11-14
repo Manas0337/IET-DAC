@@ -1,0 +1,35 @@
+package test.demo.java;
+
+public class TestDoublyCircularLinkList {
+
+	public static void main(String[] args) {
+		
+		    
+		        DoublyCircularLinkList list = new DoublyCircularLinkList();
+
+		        // Add by position
+		        list.addByPosition(10, 1);
+		        list.addByPosition(20, 2);
+		        list.addByPosition(30, 3);
+		        list.addByPosition(40, 2);
+		        System.out.print("After addByPosition: ");
+		        list.display();
+
+		        // Add by value
+		        list.addByValue(25, 20);
+		        System.out.print("After addByValue (25 after 20): ");
+		        list.display();
+
+		        // Delete by position
+		        list.deleteByPosition(3);
+		        System.out.print("After deleteByPosition (pos=3): ");
+		        list.display();
+
+		        // Delete by value
+		        list.deleteByValue(25);
+		        System.out.print("After deleteByValue (25): ");
+		        list.display();
+		    }
+		}
+
+	

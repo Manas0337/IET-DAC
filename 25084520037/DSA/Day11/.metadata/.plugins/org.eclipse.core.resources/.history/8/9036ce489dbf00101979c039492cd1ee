@@ -1,0 +1,56 @@
+package test;
+
+import java.util.Scanner;
+import beans.Employee;          // import the Employee class
+import employee.EmployeeArray; // import the utility class
+
+public class TestEmployee {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Step 1: Create array of size 20
+        Employee[] employees = new Employee[20];
+        int count = 0;
+
+        // Step 2: Add 15 employees (hardcoded for demo)
+        employees[count++] = new Employee(101, "Alice", 50000);
+        employees[count++] = new Employee(102, "Bob", 45000);
+        employees[count++] = new Employee(103, "Charlie", 60000);
+        employees[count++] = new Employee(104, "David", 40000);
+        employees[count++] = new Employee(105, "Eva", 70000);
+        employees[count++] = new Employee(106, "Frank", 55000);
+        employees[count++] = new Employee(107, "Grace", 65000);
+        employees[count++] = new Employee(108, "Hank", 48000);
+        employees[count++] = new Employee(109, "Ivy", 52000);
+        employees[count++] = new Employee(110, "Jack", 47000);
+        employees[count++] = new Employee(111, "Kim", 58000);
+        employees[count++] = new Employee(112, "Leo", 43000);
+        employees[count++] = new Employee(113, "Mia", 62000);
+        employees[count++] = new Employee(114, "Nina", 54000);
+        employees[count++] = new Employee(115, "Oscar", 51000);
+
+        // Step 3: Sort first 15 employees using Bubble Sort
+        EmployeeArray.bubbleSort(employees, count);
+
+        System.out.println("Employees after Bubble Sort (by salary):");
+        EmployeeArray.printEmployees(employees, count);
+
+        // Step 4: Accept 5 more employees from user
+        System.out.println("\nEnter 5 more employees (empid, name, salary):");
+        for (int i = 0; i < 5; i++) {
+            int empid = sc.nextInt();
+            String ename = sc.next();
+            double salary = sc.nextDouble();
+            employees[count++] = new Employee(empid, ename, salary);
+
+            // Insert new employee using Insertion Sort logic
+            EmployeeArray.insertionSort(employees, count);
+        }
+
+        System.out.println("\nEmployees after Insertion Sort (with new entries):");
+        EmployeeArray.printEmployees(employees, count);
+
+        sc.close();
+    }
+}

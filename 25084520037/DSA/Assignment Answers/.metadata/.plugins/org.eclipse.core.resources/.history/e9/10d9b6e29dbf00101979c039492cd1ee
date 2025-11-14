@@ -1,0 +1,50 @@
+package com.demo.assignments;
+import java.util.Scanner;
+
+public class GroupStringsBySecondChar {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String[] strArr = new String[20];
+        int count = 0;
+
+        System.out.println("Enter strings (type 'stop' to end):");
+        while (count < 20) {
+            String input = sc.next();
+            if (input.equalsIgnoreCase("stop")) break;
+
+            if (input.length() < 2) {
+                
+                strArr[count++] = input;
+                continue;
+            }
+
+            char secondChar = input.charAt(1);
+            boolean inserted = false;
+
+           
+            for (int i = 0; i < count; i++) {
+                if (strArr[i].length() > 1 && strArr[i].charAt(1) == secondChar) {
+                    
+                    for (int j = count; j > i + 1; j--) {
+                        strArr[j] = strArr[j - 1];
+                    }
+                    strArr[i + 1] = input;
+                    count++;
+                    inserted = true;
+                    break;
+                }
+            }
+
+           if (!inserted) {
+                strArr[count++] = input;
+            }
+        }
+
+        System.out.println("\nFinal String Array:");
+        for (int i = 0; i < count; i++) {
+            System.out.print(strArr[i] + " ");
+        }
+          sc.close();
+    }
+}

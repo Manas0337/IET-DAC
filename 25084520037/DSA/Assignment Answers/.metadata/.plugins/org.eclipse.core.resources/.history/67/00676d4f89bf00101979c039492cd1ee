@@ -1,0 +1,10 @@
+package com.demo.assignments;
+
+public class AdditionOfDigit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

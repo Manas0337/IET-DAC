@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Generator</title>
+    <script>
+       function generateUsername(){
+
+        const firstName = document.getElementById("FirstName").value.trim();
+        const lastName = document.getElementById("Lastname").value.trim();
+        const age = document.getElementById("Age").value.trim();
+        const result = document.getElementById("result");
+
+        if(!firstName || !lastName || !age ){
+            alert("please fill in all feild");
+            return;
+
+        }
+        if(isNaN(age))
+        {
+            alert("age must be number");
+            return;
+
+        }
+        const firstPart = firstName.substring(0,2).toLowerCase();
+        const lastPart = lastName.slice(-2).toLowerCase();
+        const username = firstPart + lastPart + age;
+
+        result.innerHTML =`<strong>Generated username:</strong> ${username}`;
+       }
+
+
+    </script>
+</head>
+<body>
+    <h2>Create Your Username</h2>
+    <label>firstName</label>
+    <input type="text" id="FirstName"><br><br>
+    <label>LastName</label>
+    <input type="text" id="LastName"><br><br>
+    <label>Age</label>
+    <input type="number" id="Age"> <br><br>
+<button onclick="generateUsername()"> generateUsername</button>
+
+<p id="result"></p>
+
+    
+
+
+</body>
+</html>

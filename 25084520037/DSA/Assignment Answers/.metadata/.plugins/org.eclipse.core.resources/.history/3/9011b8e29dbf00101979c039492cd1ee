@@ -1,0 +1,58 @@
+package com.demo.test;
+
+import java.util.Scanner;
+import com.demo.assignments.ArraysFunctions;
+
+public class TestArrays {
+
+    static ArraysFunctions af = new ArraysFunctions();
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+       
+        System.out.print("Enter size of array: ");
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+
+        System.out.println("Enter " + size + " numbers:");
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        
+        System.out.println("\nSum of digits:");
+        for (int num : arr) {
+            System.out.println(num + " -> " + af.additionOfDigit(num));
+        }
+
+        
+        System.out.println("\nFactorials of prime numbers:");
+        for (int num : arr) {
+            if (af.isPrime(num)) {
+                long fact = af.factOfPrimeNum(num); 
+                System.out.println(num + " -> " + fact);
+            }
+        }
+
+        int maxPrime = af.maxPrimeNumber(arr);
+        System.out.println("\nMaximum prime number: " + (maxPrime == -1 ? "No prime found" : maxPrime));
+
+      
+        int[] copyArr = new int[size];
+        for (int i = 0; i < size; i++) {
+            if (af.isPrime(arr[i]) && arr[i] < 5) {
+                copyArr[i] = af.reverseNumber(arr[i]);
+            } else {
+                copyArr[i] = arr[i];
+            }
+        }
+        System.out.println("\nCopied Array:");
+        for (int num : copyArr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        sc.close();
+    }
+}

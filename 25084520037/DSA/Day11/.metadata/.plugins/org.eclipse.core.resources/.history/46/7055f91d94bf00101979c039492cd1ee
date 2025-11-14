@@ -1,0 +1,52 @@
+package com.demo.assignments;
+
+public class ArraysFunctions {
+      
+	public static long factOfPrimeNum(int num) {
+		int fact =1;
+		for(int i = 1; i < num ; i++) {
+			fact = fact*i; 
+		}
+		return fact;
+	}
+	
+	public static boolean isPrime(int num) {
+		for(int i = 1; i < num ; i++) {
+	    	if(num%i == 0)
+		  {
+			return false;
+		   }
+	    }		
+		return true;
+
+	}
+	public static int additionOfDigit(int num) {
+		int sum =0;
+		while(num > 0) {
+			sum = sum + num%10;
+			num /= 10;
+		}
+		return sum;
+	}
+	public static int maxPrimeNumber(int[] arr) {
+		int max = -1;
+		for(int i =0; i < arr.length; i ++) {
+			if(isPrime(i) && i > max) {
+				max = i;
+			}
+		}
+			return max;
+	}
+		
+		public static int reverseNumber(int num) {
+			int rev = 0;
+			while(num > 0) {
+				rev = rev * 10 + num % 10 ;
+				num /= 10;
+			}
+			
+			return rev;
+			
+			
+	}
+}
