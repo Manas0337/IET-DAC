@@ -1,0 +1,116 @@
+Count total no. of employees.
+mysql> SELECT COUNT(*) FROM emp;
+Determine the maximum and minimum salary.
+mysql> SELECT MAX(sal), MIN(sal) FROM emp;
+Display the count of employees having salary greater than 3000.
+mysql> SELECT COUNT(*) FROM emp WHERE sal > 3000;
+Print department wise count of employees.
+mysql> SELECT deptno, COUNT(*) FROM emp GROUP BY deptno;
+Display employee details who earn maximum and minimum salary.
+mysql> SELECT * FROM emp WHERE sal = (SELECT MAX(sal) FROM emp) OR sal = (SELECT MIN(sal) FROM emp);
+Print jobwise total salary.
+mysql> SELECT job, SUM(sal) FROM emp GROUP BY job;
+Print department wise maximum salary.
+mysql> SELECT deptno, MAX(sal) FROM emp GROUP BY deptno;
+Print jobwise average salary.
+mysql> SELECT job, AVG(sal) FROM emp GROUP BY job;
+Print count of employee working in department 20.
+mysql> SELECT COUNT(*) FROM emp WHERE deptno = 20;
+Print count of employee working in department 10 having job as MANAGER..
+mysql> SELECT COUNT(*) FROM emp WHERE deptno = 10 AND job = 'MANAGER';
+Print count of employee working in department 20 having comm as null.
+mysql> SELECT COUNT(*) FROM emp WHERE deptno = 20 AND comm IS NULL;
+Print names of employees working in ACCOUNTS department having maximum salary.
+(Assuming ACCOUNTS = job = ‘ACCOUNTS’)
+mysql> SELECT ename FROM emp WHERE sal = (SELECT MAX(sal) FROM emp WHERE job = 'ACCOUNTS');
+Print employee details having salary less than average salary of MANAGER.
+mysql> SELECT * FROM emp WHERE sal < (SELECT AVG(sal) FROM emp WHERE job = 'MANAGER');
+Give SQL statement to find the average annual salary per job in each detp.
+mysql> SELECT job, AVG(sal * 12) AS avg_annual_salary FROM emp GROUP BY job;
+Count the number of people in the dept 30 who receive a salary and the no.of people who receive comm.
+mysql> SELECT (SELECT COUNT(*) FROM emp WHERE deptno = 30 AND sal IS NOT NULL) AS salary_count, (SELECT COUNT(*) FROM emp WHERE deptno = 30 AND comm IS NOT NULL) AS comm_count;
+Calculate the avg, min and max salary of those groups of employees having the job as CLERK or MANAGER.
+mysql> SELECT job, AVG(sal), MAX(sal), MIN(sal) FROM emp WHERE job IN ('CLERK','MANAGER') GROUP BY job;
+Display the deptno of departments which have more than one CLERK.
+mysql> SELECT deptno, COUNT(*) FROM emp WHERE job = 'CLERK' GROUP BY deptno HAVING COUNT(*) > 1;
+List names and hiredates of employees who were hired in the month of December
+mysql> SELECT ename, hiredate FROM emp WHERE MONTH(hiredate) = 12;
+List names and hiredate of employees hired in the year 1980
+mysql> SELECT ename, hiredate FROM emp WHERE YEAR(hiredate) = 1980;
+Display names and jobs of the people separated by a hyphen. Capitalize the first character of name and job.
+mysql> SELECT CONCAT(CONCAT(UPPER(LEFT(ename,1)), LOWER(SUBSTRING(ename,2))), '-', CONCAT(UPPER(LEFT(job,1)), LOWER(SUBSTRING(job,2)))) AS hyphen FROM emp;
+List employee numbers, names and hiredates of the people working in the department number 20, display the hiredates in the dd/mm/yy format
+mysql> SELECT empno, ename, DATE_FORMAT(hiredate, '%d-%m-%Y') FROM emp WHERE deptno = 20;
+Find number of months the president has worked for the company.
+mysql> SELECT TIMESTAMPDIFF(MONTH, hiredate, CURDATE()) AS months_worked FROM emp WHERE job = 'PRESIDENT';
+Find the day of the week on which SMITH joined
+mysql> SELECT DAYOFWEEK(hiredate), DAYNAME(hiredate) FROM emp WHERE ename = 'SMITH';
+Find the time of the day in which ADAMS joined
+mysql> SELECT TIME(hiredate) FROM emp WHERE ename = 'ADAMS';
+Find day of month on which KING joined
+mysql> SELECT DAY(hiredate) FROM emp WHERE ename = 'KING';
+Find out month on which MARTIN joined
+mysql> SELECT MONTH(hiredate) FROM emp WHERE ename = 'MARTIN';
+Find out which quarter of the year the employees joined. Display their number and names as well
+mysql> SELECT empno, ename, QUARTER(hiredate) AS quarter_joined FROM emp;
+Retrieve ANALYST records with the hiredate formatted as – ‘The 3rd of December 1984’
+mysql> SELECT ename, DATE_FORMAT(hiredate, 'The %D of %M %Y') AS formatted_date FROM emp WHERE job = 'ANALYST';
+List all names, jobs, and a job classification number, which is to be assigned by you. Translate the value started in each job field to a job classification number. This is to be done as follows-
+A. CLERK
+B. MANAGER
+C. PRESIDENT
+D. OTHER
+mysql> SELECT ename, job, CASE WHEN job='CLERK' THEN 'A' WHEN job='MANAGER' THEN 'B' WHEN job='PRESIDENT' THEN 'C' ELSE 'D' END AS job_classification FROM emp;
+Display the length of the longest employees name
+mysql> SELECT MAX(LENGTH(ename)) FROM emp;
+Write a query to list the length of service of the employees (of the form n years and m months).
+mysql> SELECT ename, CONCAT(FLOOR(TIMESTAMPDIFF(MONTH, hiredate, CURDATE())/12), ' years ', MOD(TIMESTAMPDIFF(MONTH, hiredate, CURDATE()), 12), ' months') AS service_length FROM emp;
+How many employees who are joined in 1985.
+mysql> SELECT COUNT(*) FROM emp WHERE YEAR(hiredate) = 1985;
+How many employees joined each month in 1985.
+mysql> SELECT MONTH(hiredate), COUNT(*) FROM emp WHERE YEAR(hiredate)=1985 GROUP BY MONTH(hiredate);
+How many employees who are joined in March 1985.
+mysql> SELECT COUNT(*) FROM emp WHERE YEAR(hiredate)=1985 AND MONTH(hiredate)=3;
+Find the total sales amount
+mysql> SELECT SUM(amount) FROM sales;
+Find the customer-wise lowest and highest sales amount
+mysql> SELECT custname, MIN(amount), MAX(amount) FROM sales GROUP BY custname;
+Find product-wise lowest, highest and total sales.
+mysql> SELECT prodname, MIN(amount), MAX(amount), SUM(amount) FROM sales GROUP BY prodname;
+Find department-wise average salary for all the departments employing more than three employees
+mysql> SELECT deptno, AVG(sal) FROM emp GROUP BY deptno HAVING COUNT(*) > 3;
+Find the customer-wise total sales for all the customers except ‘TKB SPORT SHOP’ who came to purchase various sports items maximum four times.
+mysql> SELECT custname, SUM(amount) FROM sales WHERE custname <> 'TKB SPORT SHOP' GROUP BY custname HAVING COUNT(*) <= 4;
+Display the highest, lowest, sum and average salary for all employees. Label the columns appropriately.
+mysql> SELECT MAX(sal) AS highest, MIN(sal) AS lowest, SUM(sal) AS total, AVG(sal) AS average FROM emp;
+Modify the above query and display the output for each job type.
+mysql> SELECT job, MAX(sal) AS highest, MIN(sal) AS lowest, SUM(sal) AS total, AVG(sal) AS average FROM emp GROUP BY job;
+List names of people who have salary less than the average salary for dept 20
+mysql> SELECT ename FROM emp WHERE sal < (SELECT AVG(sal) FROM emp WHERE deptno = 20);
+Find the average annual salary per job in each department.
+mysql> SELECT deptno, job, AVG(sal*12) AS avg_annual_salary FROM emp GROUP BY deptno, job;
+Count the number of people in department 30 who receive a salary and the number of people who receive a commission
+mysql> SELECT (SELECT COUNT(*) FROM emp WHERE deptno = 30 AND sal IS NOT NULL) AS salary_count, (SELECT COUNT(*) FROM emp WHERE deptno = 30 AND comm IS NOT NULL) AS comm_count;
+Compute the average, minimum and maximum salaries of these groups of employees having job as Clerk or manager, Display the job as well
+mysql> SELECT job, AVG(sal), MIN(sal), MAX(sal) FROM emp WHERE job IN ('CLERK','MANAGER') GROUP BY job;
+Write an SQL command that displays 2nd highest salary paid
+mysql> SELECT DISTINCT sal FROM emp ORDER BY sal DESC LIMIT 1 OFFSET 1;
+Write a query to find the employees who are earning the maximum salary in their departments.
+mysql> SELECT * FROM emp e WHERE sal = (SELECT MAX(sal) FROM emp WHERE deptno = e.deptno);
+Write a query to find the salesman number (repid) who has achieved the maximum total sales among the entire salesman.
+(Assuming repid = sales representative id)
+mysql> SELECT repid FROM sales GROUP BY repid ORDER BY SUM(amount) DESC LIMIT 1;
+List the highest salary paid for each job.
+mysql> SELECT job, MAX(sal) FROM emp GROUP BY job;
+Find the most recently hired employee in each department.
+mysql> SELECT * FROM emp e WHERE hiredate = (SELECT MAX(hiredate) FROM emp WHERE deptno = e.deptno);
+In which year did most people join the company? Display the year and the number of employees.
+mysql> SELECT YEAR(hiredate) AS year, COUNT(*) AS total FROM emp GROUP BY YEAR(hiredate) ORDER BY total DESC LIMIT 1;
+Write a query to display employee name whose name occurs only once in the table.
+mysql> SELECT ename FROM emp GROUP BY ename HAVING COUNT(*) = 1;
+Write a query to display all the details from dept table along with the no. of employee working in each dept.
+mysql> SELECT d.*, (SELECT COUNT(*) FROM emp e WHERE e.deptno = d.deptno) AS emp_count FROM dept d;
+Find out which department does not have any employees.
+mysql> SELECT deptno, dname FROM dept WHERE deptno NOT IN (SELECT DISTINCT deptno FROM emp);
+List out the no. of employees joined in every month in ascending order.
+mysql> SELECT DATE_FORMAT(hiredate, '%Y-%m') AS month, COUNT(*) FROM emp GROUP BY DATE_FORMAT(hiredate, '%Y-%m') ORDER BY month;
