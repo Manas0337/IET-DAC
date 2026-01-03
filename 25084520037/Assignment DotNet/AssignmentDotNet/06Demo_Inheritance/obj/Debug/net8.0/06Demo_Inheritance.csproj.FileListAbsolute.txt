@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\bin\Debug\net8.0\06Demo_Inheritance.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\bin\Debug\net8.0\06Demo_Inheritance.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\bin\Debug\net8.0\06Demo_Inheritance.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\bin\Debug\net8.0\06Demo_Inheritance.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\bin\Debug\net8.0\06Demo_Inheritance.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\refint\06Demo_Inheritance.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\06Demo_Inheritance.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\06Demo_Inheritance\obj\Debug\net8.0\ref\06Demo_Inheritance.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\bin\Debug\net8.0\02Demo_WithoutTopLevelStatements.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\bin\Debug\net8.0\02Demo_WithoutTopLevelStatements.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\bin\Debug\net8.0\02Demo_WithoutTopLevelStatements.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\bin\Debug\net8.0\02Demo_WithoutTopLevelStatements.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\bin\Debug\net8.0\02Demo_WithoutTopLevelStatements.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\refint\02Demo_WithoutTopLevelStatements.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\02Demo_WithoutTopLevelStatements.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\02Demo_WithoutTopLevelStatements\obj\Debug\net8.0\ref\02Demo_WithoutTopLevelStatements.dll

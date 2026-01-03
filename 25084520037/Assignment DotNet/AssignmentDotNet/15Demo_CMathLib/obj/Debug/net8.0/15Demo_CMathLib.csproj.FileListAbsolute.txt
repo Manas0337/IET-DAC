@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\bin\Debug\net8.0\15Demo_CMathLib.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\bin\Debug\net8.0\15Demo_CMathLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\bin\Debug\net8.0\15Demo_CMathLib.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\refint\15Demo_CMathLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\15Demo_CMathLib.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\15Demo_CMathLib\obj\Debug\net8.0\ref\15Demo_CMathLib.dll

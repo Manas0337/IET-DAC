@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA31291-8125-4302-93D6-E91376B3854A}|connection\\connection.csproj|c:\\users\\iet\\desktop\\assignment dotnet\\assignmentdotnet\\connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA31291-8125-4302-93D6-E91376B3854A}|connection\\connection.csproj|solutionrelative:connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|c:\\users\\iet\\desktop\\assignment dotnet\\assignmentdotnet\\loginapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|c:\\users\\iet\\desktop\\assignment dotnet\\assignmentdotnet\\loginapp\\loginapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\loginapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|c:\\users\\iet\\desktop\\assignment dotnet\\assignmentdotnet\\loginapp\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|c:\\users\\iet\\desktop\\assignment dotnet\\assignmentdotnet\\loginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5371DD8-C0E7-4D20-AAFC-A1E9481561AD}|LoginApp\\LoginApp.csproj|solutionrelative:loginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\42Demo_ConnectedAdoNet\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:42Demo_ConnectedAdoNet\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FC2D9-6481-4508-803B-6AF6584A94F3}|32Demo_MyApplication\\32Demo_MyApplication.csproj|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32demo_myapplication\\32demo_myapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D1FC2D9-6481-4508-803B-6AF6584A94F3}|32Demo_MyApplication\\32Demo_MyApplication.csproj|solutionrelative:32demo_myapplication\\32demo_myapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\34Demo_CustomAttributes\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:34Demo_CustomAttributes\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\31Demo_BVSAttribute\\BonaventureSystemAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:31Demo_BVSAttribute\\BonaventureSystemAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32Demo_MyApplication\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:32Demo_MyApplication\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\33Demo_EmpLib\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:33Demo_EmpLib\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\connection\\Program.cs",
+              "RelativeDocumentMoniker": "connection\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\connection\\Program.cs",
+              "RelativeToolTip": "connection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:48:57.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LoginApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\Models\\User.cs",
+              "RelativeToolTip": "LoginApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:21:58.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "LoginApp\\DAL\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "LoginApp\\DAL\\UserDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:21:29.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginApp.csproj",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\LoginApp.csproj",
+              "RelativeDocumentMoniker": "LoginApp\\LoginApp.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\LoginApp.csproj",
+              "RelativeToolTip": "LoginApp\\LoginApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T11:18:27.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\Program.cs",
+              "RelativeDocumentMoniker": "LoginApp\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\LoginApp\\Program.cs",
+              "RelativeToolTip": "LoginApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T11:17:27.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\42Demo_ConnectedAdoNet\\Program.cs",
+              "RelativeDocumentMoniker": "42Demo_ConnectedAdoNet\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\42Demo_ConnectedAdoNet\\Program.cs",
+              "RelativeToolTip": "42Demo_ConnectedAdoNet\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T12:07:47.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "32Demo_MyApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32Demo_MyApplication\\32Demo_MyApplication.csproj",
+              "RelativeDocumentMoniker": "32Demo_MyApplication\\32Demo_MyApplication.csproj",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32Demo_MyApplication\\32Demo_MyApplication.csproj",
+              "RelativeToolTip": "32Demo_MyApplication\\32Demo_MyApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-23T11:40:10Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BonaventureSystemAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\31Demo_BVSAttribute\\BonaventureSystemAttribute.cs",
+              "RelativeDocumentMoniker": "31Demo_BVSAttribute\\BonaventureSystemAttribute.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\31Demo_BVSAttribute\\BonaventureSystemAttribute.cs",
+              "RelativeToolTip": "31Demo_BVSAttribute\\BonaventureSystemAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:34:35.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32Demo_MyApplication\\Program.cs",
+              "RelativeDocumentMoniker": "32Demo_MyApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\32Demo_MyApplication\\Program.cs",
+              "RelativeToolTip": "32Demo_MyApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:20:47.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\34Demo_CustomAttributes\\Class1.cs",
+              "RelativeDocumentMoniker": "34Demo_CustomAttributes\\Class1.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\34Demo_CustomAttributes\\Class1.cs",
+              "RelativeToolTip": "34Demo_CustomAttributes\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:20:36.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\33Demo_EmpLib\\Class1.cs",
+              "RelativeDocumentMoniker": "33Demo_EmpLib\\Class1.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\Assignment DotNet\\AssignmentDotNet\\33Demo_EmpLib\\Class1.cs",
+              "RelativeToolTip": "33Demo_EmpLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:27:07.756Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

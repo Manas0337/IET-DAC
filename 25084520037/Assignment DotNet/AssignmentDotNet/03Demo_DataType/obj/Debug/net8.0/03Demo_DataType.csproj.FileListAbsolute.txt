@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\bin\Debug\net8.0\03Demo_DataType.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\bin\Debug\net8.0\03Demo_DataType.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\bin\Debug\net8.0\03Demo_DataType.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\bin\Debug\net8.0\03Demo_DataType.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\bin\Debug\net8.0\03Demo_DataType.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\refint\03Demo_DataType.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\03Demo_DataType.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\03Demo_DataType\obj\Debug\net8.0\ref\03Demo_DataType.dll

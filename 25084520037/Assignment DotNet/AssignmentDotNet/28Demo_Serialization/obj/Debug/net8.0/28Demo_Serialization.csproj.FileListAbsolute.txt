@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\bin\Debug\net8.0\28Demo_Serialization.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\bin\Debug\net8.0\28Demo_Serialization.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\bin\Debug\net8.0\28Demo_Serialization.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\bin\Debug\net8.0\28Demo_Serialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\bin\Debug\net8.0\28Demo_Serialization.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\refint\28Demo_Serialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\28Demo_Serialization.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\28Demo_Serialization\obj\Debug\net8.0\ref\28Demo_Serialization.dll

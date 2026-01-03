@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\bin\Debug\net8.0\33Demo_EmpLib.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\bin\Debug\net8.0\33Demo_EmpLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\bin\Debug\net8.0\33Demo_EmpLib.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\refint\33Demo_EmpLib.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\33Demo_EmpLib.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\33Demo_EmpLib\obj\Debug\net8.0\ref\33Demo_EmpLib.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\bin\Debug\net8.0\26Demo_File.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\bin\Debug\net8.0\26Demo_File.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\bin\Debug\net8.0\26Demo_File.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\bin\Debug\net8.0\26Demo_File.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\bin\Debug\net8.0\26Demo_File.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\refint\26Demo_File.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\26Demo_File.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\26Demo_FileI\obj\Debug\net8.0\ref\26Demo_File.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\bin\Debug\net8.0\29Demo_Refelction.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\bin\Debug\net8.0\29Demo_Refelction.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\bin\Debug\net8.0\29Demo_Refelction.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\bin\Debug\net8.0\29Demo_Refelction.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\bin\Debug\net8.0\29Demo_Refelction.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\refint\29Demo_Refelction.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\29Demo_Refelction.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\29Demo_Refelction\obj\Debug\net8.0\ref\29Demo_Refelction.dll

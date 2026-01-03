@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\bin\Debug\net8.0\Debugger.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\bin\Debug\net8.0\Debugger.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\bin\Debug\net8.0\Debugger.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\bin\Debug\net8.0\Debugger.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\bin\Debug\net8.0\Debugger.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\refint\Debugger.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\Debugger.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\Debugger\obj\Debug\net8.0\ref\Debugger.dll

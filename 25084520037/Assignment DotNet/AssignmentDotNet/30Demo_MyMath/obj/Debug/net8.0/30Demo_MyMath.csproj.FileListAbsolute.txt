@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\bin\Debug\net8.0\30Demo_MyMath.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\bin\Debug\net8.0\30Demo_MyMath.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\bin\Debug\net8.0\30Demo_MyMath.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\refint\30Demo_MyMath.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\30Demo_MyMath.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\30Demo_MyMath\obj\Debug\net8.0\ref\30Demo_MyMath.dll

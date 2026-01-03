@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "31Demo_BVSAttribute/1.0.0": {
+        "runtime": {
+          "31Demo_BVSAttribute.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "31Demo_BVSAttribute/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

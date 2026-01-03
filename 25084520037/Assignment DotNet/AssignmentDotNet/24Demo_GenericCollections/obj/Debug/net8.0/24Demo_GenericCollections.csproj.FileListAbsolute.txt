@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\bin\Debug\net8.0\24Demo_GenericCollections.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\bin\Debug\net8.0\24Demo_GenericCollections.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\bin\Debug\net8.0\24Demo_GenericCollections.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\bin\Debug\net8.0\24Demo_GenericCollections.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\bin\Debug\net8.0\24Demo_GenericCollections.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\refint\24Demo_GenericCollections.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\24Demo_GenericCollections.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\24Demo_GenericCollections\obj\Debug\net8.0\ref\24Demo_GenericCollections.dll

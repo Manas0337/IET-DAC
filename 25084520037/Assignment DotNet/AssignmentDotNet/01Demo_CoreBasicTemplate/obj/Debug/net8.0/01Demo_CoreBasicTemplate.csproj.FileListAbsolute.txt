@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\bin\Debug\net8.0\01Demo_CoreBasicTemplate.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\bin\Debug\net8.0\01Demo_CoreBasicTemplate.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\bin\Debug\net8.0\01Demo_CoreBasicTemplate.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\bin\Debug\net8.0\01Demo_CoreBasicTemplate.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\bin\Debug\net8.0\01Demo_CoreBasicTemplate.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\refint\01Demo_CoreBasicTemplate.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\01Demo_CoreBasicTemplate.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\01Demo_CoreBasicTemplate\obj\Debug\net8.0\ref\01Demo_CoreBasicTemplate.dll

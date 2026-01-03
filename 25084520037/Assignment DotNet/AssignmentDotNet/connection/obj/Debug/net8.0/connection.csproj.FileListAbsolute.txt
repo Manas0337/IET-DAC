@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\bin\Debug\net8.0\connection.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\bin\Debug\net8.0\connection.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\bin\Debug\net8.0\connection.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\bin\Debug\net8.0\connection.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\bin\Debug\net8.0\connection.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\refint\connection.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\connection.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\connection\obj\Debug\net8.0\ref\connection.dll

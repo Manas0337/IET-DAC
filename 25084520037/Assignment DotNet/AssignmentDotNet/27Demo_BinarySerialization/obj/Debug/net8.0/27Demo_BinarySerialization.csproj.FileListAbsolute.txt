@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\bin\Debug\net8.0\27Demo_BinarySerialization.exe
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\bin\Debug\net8.0\27Demo_BinarySerialization.deps.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\bin\Debug\net8.0\27Demo_BinarySerialization.runtimeconfig.json
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\bin\Debug\net8.0\27Demo_BinarySerialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\bin\Debug\net8.0\27Demo_BinarySerialization.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.AssemblyInfo.cs
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\refint\27Demo_BinarySerialization.dll
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.pdb
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\27Demo_BinarySerialization.genruntimeconfig.cache
+C:\Users\IET\Desktop\Assignment DotNet\AssignmentDotNet\27Demo_BinarySerialization\obj\Debug\net8.0\ref\27Demo_BinarySerialization.dll
