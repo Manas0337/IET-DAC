@@ -1,0 +1,178 @@
+create solution project and creat MVC C# project
+built=>install=> 
+        1) Microsoft.EntityFrameworkCore
+        2) Microsoft.EntityFrameworkCore.design
+        3)Microsoft.EntityFrameworkCore.design
+        4)Microsoft.EntityFrameworkCore.sqlClient
+============================================
+create class in model layer=>
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebApplication1.Models
+{
+    [Table("Emp")]
+    public class Emp
+    {
+        [Key]
+        [Column("Id", TypeName ="int")]
+        public int Id { get; set; }
+        [Column("Name", TypeName = "varchar(50)")]
+        public string Name { get; set; }
+
+        [Column("Address", TypeName = "varchar(50)")]
+        public string Address { get; set; }
+    }
+}
+
+=============================
+
+
+Create Folder DAL
+Create clas in DAl name As "DacDbContext"
+
+
+
+using Microsoft.EntityFrameworkCore;
+using System.Data;
+using WebApplication1.Models;
+
+namespace WebApplication1.DAL
+{
+    public class DacDbContext : DbContext
+
+    {
+
+        public DbSet<Emp> emps { get; set; }
+
+        public DacDbContext(DbContextOptions options) : base(options)// create constructor and extend constructor with base(options)
+        {
+
+        }
+
+    }
+
+
+}
+
+========================
+
+in program.cs add
+
+
+builder.Services.AddDbContext<DacDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("dac"))
+);
+
+after this lien builder.Services.AddControllersWithViews();
+==============================
+
+create database and copy string and pest in appsettings.json 
+
+ "ConnectionStrings": {
+   "dac": " Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DemoTest;Integrated Security=True"
+ },
+
+=======================
+for migration go to tools=>nuget packages =>console and run following commands 
+
+1.	add-migration Empclass
+
+2) update-database
+
+================
+
+in controller-> HomeController keep only
+
+
+
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using WebApplication1.DAL;
+using WebApplication1.Models;
+
+namespace WebApplication1.Controllers
+{
+    public class HomeController : Controller
+    {
+
+        private readonly DacDbContext _DacObj;//create object of our database context DacDbContext
+
+
+        public HomeController(DacDbContext dacObj) // create constructor and initialize our object
+        {
+           _DacObj = dacObj;
+        }
+        // VIEW ALL EMPLOYEES
+        public IActionResult Index()
+        {
+            ViewBag.ctr = "Home";
+            var allEmps = _DacObj.emps.ToList();
+            return View(allEmps);
+        }
+
+        // CREATE - GET
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // CREATE - POST
+        [HttpPost]
+        public IActionResult AfterCreate(Emp emp)
+        {
+            _DacObj.emps.Add(emp);
+            _DacObj.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        // EDIT - GET
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var emp = _DacObj.emps.Find(id);
+            return View(emp);
+        }
+
+        // EDIT / UPDATE - POST
+        [HttpPost]
+        public IActionResult AfterEdit(Emp emp)
+        {
+            _DacObj.emps.Update(emp);
+            _DacObj.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        // DELETE - GET
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var emp = _DacObj.emps.Find(id);
+            return View(emp);
+        }
+
+        // DELETE - POST
+        [HttpPost]
+        public IActionResult AfterDelete(int id)
+        {
+            var emp = _DacObj.emps.Find(id);
+            _DacObj.emps.Remove(emp);
+            _DacObj.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        // VIEW DETAILS
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            var emp = _DacObj.emps.Find(id);
+            return View(emp);
+        }
+
+
+    }
+}
+
+
+run the app.
